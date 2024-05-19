@@ -1,0 +1,9 @@
+docker run -d --name test-mongo -p 27017:27017 -v ./my-data:/data/db   mongo:6.0.4
+docker exec -it  test-mongo bash
+mongosh
+#########################################"port 8080 lt
+npm install -g localtunnel
+
+lt --port 8080  
+
+curl ifconfig.me
